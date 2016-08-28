@@ -1,5 +1,9 @@
 package Warmup;
 
+/*
+ * @author -- rajatgoyal715
+ */
+ 
 import java.util.Scanner;
 
 public class CompareTheTriplets {
