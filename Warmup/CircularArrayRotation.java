@@ -1,15 +1,11 @@
-/*
- *  Add any license header using tools << templates << licenses << default license
- */
-
 package Warmup;
 
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
-/**
- * @author mukul goyal
+/*
+ * @author -- rajatgoyal715
  */
 
 public class CircularArrayRotation {
