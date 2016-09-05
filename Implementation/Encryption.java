@@ -1,13 +1,9 @@
-/*
- *  Add any license header using tools << templates << licenses << default license
- */
-
 package Implementation;
 
 import java.util.Scanner;
 
-/**
- * @author mukul goyal
+/*
+ * @author -- rajatgoyal715
  */
 
 public class Encryption {
