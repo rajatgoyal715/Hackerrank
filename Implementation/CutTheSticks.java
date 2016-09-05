@@ -1,10 +1,11 @@
 package Implementation;
 
+import java.util.Scanner;
+
 /*
  * @author -- rajatgoyal715
  */
- 
-import java.util.Scanner;
+
 public class CutTheSticks {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
