@@ -1,12 +1,9 @@
-/*
- *  Add any license header using tools << templates << licenses << default license
- */
-
 package Implementation;
 
-/**
- * @author mukul goyal
+/*
+ * @author -- rajatgoyal715
  */
+
 import java.util.Scanner;
 
 public class AngryProfessor {
