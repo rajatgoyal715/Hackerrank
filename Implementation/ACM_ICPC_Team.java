@@ -1,9 +1,11 @@
 package Implementation;
 
 import java.util.Scanner;
-/**
- * @author rajatgoyal715
+
+/*
+ * @author -- rajatgoyal715
  */
+
 public class ACM_ICPC_Team {
     public static void main(String[] args){
         Scanner sc = new Scanner(System.in);
