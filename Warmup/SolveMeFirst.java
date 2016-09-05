@@ -2,6 +2,10 @@ package Warmup;
 
 import java.util.Scanner;
 
+/*
+ * @author -- rajatgoyal715
+ */
+
 public class SolveMeFirst {
     static int solveMeFirst(int a, int b) {
         return a+b;
