@@ -1,5 +1,3 @@
-package DynamicProgramming;
-
 import java.util.*;
 
 /*
@@ -8,10 +6,10 @@ import java.util.*;
 
 public class Candies {
     static int n;
-    
+
     public static void main(String[] args) {
         int i,arr[],count[];
-        long candies=0; 
+        long candies=0;
         Scanner scan = new Scanner(System.in);
         n = scan.nextInt();
         arr = new int[n];
@@ -28,7 +26,7 @@ public class Candies {
             /*else if(i!=0 && arr[i]<arr[i-1]){
                 int j = i;
                 while(j>0 && arr[j] < arr[j-1]){
-                    count[j-1] = Math.max(count[j-1],count[j] + 1); 
+                    count[j-1] = Math.max(count[j-1],count[j] + 1);
                     j--;
                 }
             }*/

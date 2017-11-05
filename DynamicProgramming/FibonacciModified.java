@@ -1,5 +1,3 @@
-package DynamicProgramming;
-
 import java.util.*;
 import java.math.BigInteger;
 
