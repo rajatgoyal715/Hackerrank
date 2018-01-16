@@ -52,9 +52,7 @@ Follow these steps to get your code merged:
  
 ## Naming Conventions
  
-*  Use camelcasing while naming your files.
-
-* A problem with its name as **Problem Name**, your solution file should be named **ProblemName**.
+*  Use camelcasing while naming your files __i.e.__ in case of a problem with its name as **Problem Name** or **problem NAME**, your solution file should be named **ProblemName**.
 
 * The file name should be succeeded by its correct extension.
 
@@ -62,4 +60,4 @@ Follow these steps to get your code merged:
 
 * It may contain numbers also.
 
-	Eg. Solution of _Game of Stones_ in Java will be GameOfStones.java**
+	Eg. Solution of _Game of Stones_ in Java will be **GameOfStones.java**
