@@ -1,18 +1,42 @@
-import java.util.*;
 import java.io.*;
+import java.util.*;
+import java.text.*;
+import java.math.*;
+import java.util.regex.*;
 
-/**
- * Created by rajat goyal on 3/19/2017.
- */
+public class Solution {
 
-public class GradingStudents {
+    static int[] solve(int[] grades){
+        // Complete this function
+        int[] returner = new int[grades.length];
+        for(int i = 0 ; i < grades.length ; i++)
+            if(grades[i] < 38)
+                returner[i] = grades[i];
+            else
+            {
+                int remainder = grades[i]%5;
+                int leftremainder = 5 - remainder;
+                if(leftremainder < 3 && leftremainder != 0)
+                    returner[i] = grades[i] + leftremainder;
+                else
+                    returner[i] = grades[i];
+            }
+        return returner;
+    }
+
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
         int n = in.nextInt();
-        for (int a0 = 0; a0 < n; a0++) {
-            int grade = in.nextInt();
-            grade = (grade >= 38 && grade % 5 >= 3) ? (5 * (grade / 5 + 1)) : grade;
-            System.out.println(grade);
+        int[] grades = new int[n];
+        for(int grades_i=0; grades_i < n; grades_i++){
+            grades[grades_i] = in.nextInt();
         }
+        int[] result = solve(grades);
+        for (int i = 0; i < result.length; i++) {
+            System.out.print(result[i] + (i != result.length - 1 ? "\n" : ""));
+        }
+        System.out.println("");
+        
+
     }
 }
