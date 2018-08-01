@@ -13,12 +13,12 @@ public static void main(String[] args){
 	System.out.println(checkPermutation1(a, b));
 }
 
-// O(n^2) approach
-public static boolean checkPermutation(String a, String b){
+// Approach Description - Time Complexity
+public static boolean checkPermutation1(String a, String b){
 	// Existing code
 }
 
-// New approach - O(n)
+// Iterative solution - O(n)
 public static boolean checkPermutation2(String a, String b){
 	// Your code
 }
@@ -41,7 +41,7 @@ Follow these steps to get your code merged:
 
 * Fork this repository
 
-* Commit your changes
+* Make changes
 
 * Create a commit
 
@@ -52,7 +52,7 @@ Follow these steps to get your code merged:
  
 ## Naming Conventions
  
-*  Use camelcasing while naming your files __i.e.__ in case of a problem with its name as **Problem Name** or **problem NAME**, your solution file should be named **ProblemName**.
+*  Use Pascal Casing while naming your files __i.e.__ in case of a problem with its name as **Problem Name** or **problem NAME**, your solution file should be named **ProblemName**.
 
 * The file name should be succeeded by its correct extension.
 
