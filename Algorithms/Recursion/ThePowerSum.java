@@ -1,28 +1,33 @@
+import java.io.*;
 import java.util.*;
+import java.text.*;
+import java.math.*;
+import java.util.regex.*;
 
-/**
- * Created by rajat goyal on 3/19/2017.
- */
+public class Solution {
 
-public class ThePowerSum {
-    public static void main(String[] args) {
+    static int count;
+	public static void main(String[] args) {
     	Scanner sc = new Scanner(System.in);
     	int x = sc.nextInt();
     	int n = sc.nextInt();
-    	int a = (int)Math.pow(x,(1/n));
-      System.out.println(power(x, n, a));
+        count = 0;
+        power(x, n, 1);
+    	System.out.println(count);
     }
 
-    public static int power(int x, int n, int a) {
-    	if(x<0) return 0;
-    	if(x==0) return 1;
-    	if(x==1) return 1;
-    	int sum = 0;
-    	for(int i=a;i>=1;i--){
-    		int temp = x-i*i;
-    		int b = (int)Math.pow(temp, (1/n));
-    		sum += power(temp, n, b);
-    	}
-    	return sum;
+    public static void power(int x, int n, int a){
+        if(x<0) return;
+        if(x==0){
+            count++;
+            return;
+        }
+        int temp = (int)Math.pow(a,n);
+        for(int i=a;temp<=x;i++){
+            temp = (int)Math.pow(i,n);
+            x -= temp;
+            power(x,n,i+1);
+            x += temp;
+        }
     }
 }
