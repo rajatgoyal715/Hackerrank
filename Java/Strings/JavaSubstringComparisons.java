@@ -1,24 +1,27 @@
 import java.io.*;
 import java.util.*;
 
-public class JavaSubstringComparisons {
-
-    public static String getSmallestAndLargest(String s, int k) {
-        int n = s.length() - k;
-        String[] arr = new String[n + 1];
-        for (int i = 0; i <= s.length() - k; i++) {
-            arr[i] = s.substring(i, i + k);
-        }
-        Arrays.sort(arr);
-        return arr[0] + "\n" + arr[n];
-    }
+public class Solution {
 
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        String s = sc.nextLine();
-        int k = sc.nextInt();
-        sc.close();
-
-        System.out.println(getSmallestAndLargest(s, k));
+        /* Enter your code here. Read input from STDIN. Print output to STDOUT. Your class should be named Solution. */
+ 
+        String str;
+        Scanner sc=new Scanner(System.in);
+ 
+        str=sc.nextLine();
+        int k;
+        k=sc.nextInt();
+        int n=str.length()-k;
+        String[] arr = new String[n+1];
+        for(int i=0;i<=str.length()-k;i++)
+            {
+            arr[i]=str.substring(i,i+k);
+ 
+        }
+        Arrays.sort(arr);
+        System.out.println(arr[0]);
+        System.out.println(arr[n]);
+ 
     }
 }
