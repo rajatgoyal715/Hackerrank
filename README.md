@@ -5,8 +5,9 @@ You can find me on hackerrank [here](https://hackerrank.com/rajatgoyal715).
 
 Automated the process of adding solutions using [Hackerrank Solution Crawler](https://github.com/Nullifiers/Hackerrank-Solution-Crawler).
 
-# [Algorithms](https://www.hackerrank.com/domains/algorithms)
+<details>
 
+<summary># [Algorithms](https://www.hackerrank.com/domains/algorithms)</summary>
 
 ## [BitManipulation](https://www.hackerrank.com/domains/algorithms/bit-manipulation)
 
@@ -246,6 +247,8 @@ Automated the process of adding solutions using [Hackerrank Solution Crawler](ht
 |Solve Me First|[Problem](https://www.hackerrank.com/challenges/solve-me-first/problem)|java|[Solution](./SolveMeFirst.java)|
 |Staircase|[Problem](https://www.hackerrank.com/challenges/staircase/problem)|java|[Solution](./Staircase.java)|
 |Time Conversion|[Problem](https://www.hackerrank.com/challenges/time-conversion/problem)|java|[Solution](./TimeConversion.java)|
+
+</details>
 
 
 # [Java](https://www.hackerrank.com/domains/java)
