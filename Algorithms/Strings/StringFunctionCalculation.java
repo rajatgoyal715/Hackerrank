@@ -1,13 +1,8 @@
-package Strings;
-
-import java.util.*;
 import java.io.*;
+import java.util.*;
 
-/*
- * @author -- rajatgoyal715
- */
+public class Solution {
 
-public class StringFunctionCalculation {
     static int l;
     
     public static void main(String[] args) {

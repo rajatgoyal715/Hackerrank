@@ -1,14 +1,6 @@
-/*
- *  Add any license header using tools << templates << licenses << default license
- */
-package Strings;
-
 import java.util.Scanner;
 
-/*
- * @author rajatgoyal715
- */
-public class TwoStrings {
+public class Solution {
     public static void main(String args[]){
         Scanner sc = new Scanner(System.in);
         int t = Integer.parseInt(sc.nextLine());

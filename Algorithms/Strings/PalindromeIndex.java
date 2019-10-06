@@ -1,8 +1,10 @@
-package Strings;
+import java.io.*;
+import java.util.*;
+import java.text.*;
+import java.math.*;
+import java.util.regex.*;
 
-import java.util.Scanner;
-
-public class PallindromeIndex {
+public class Solution {
     public static void main(String args[]){
         Scanner sc = new Scanner(System.in);
         int t = Integer.parseInt(sc.nextLine());

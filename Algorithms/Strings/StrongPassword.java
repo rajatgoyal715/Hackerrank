@@ -1,8 +1,12 @@
-import java.util.*;
 import java.io.*;
+import java.util.*;
+import java.text.*;
+import java.math.*;
+import java.util.regex.*;
 
-class StrongPassword {
-	static int minimumNumber(int n, String pwd) {
+public class Solution {
+
+    static int minimumNumber(int n, String pwd) {
         if(n<=3) return 6-n;
         boolean num = false, lower = false, upper = false, special = false;
         for(char c : pwd.toCharArray()){

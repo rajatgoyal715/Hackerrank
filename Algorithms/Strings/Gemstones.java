@@ -1,12 +1,11 @@
-package Strings;
-
 import java.util.Scanner;
 
-public class Gemstones {
+public class Solution {
     public static void main(String args[]){
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
         String s[] = new String[n];
+        char word[] = {'a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','s','t','u','v','w','x','y','z'};
         for(int i=0;i<n;i++){
             s[i] = sc.next();
         }
@@ -21,7 +20,7 @@ public class Gemstones {
                 int l = s[i].length();
                 label3:
                 for(int k=0;k<l;k++){
-                    if(97+j==s[i].charAt(k)){
+                    if(word[j]==s[i].charAt(k)){
                         flag=1;
                         break;
                     }

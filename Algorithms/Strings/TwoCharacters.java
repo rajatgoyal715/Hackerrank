@@ -1,9 +1,11 @@
-import java.util.*;
 import java.io.*;
+import java.util.*;
+import java.text.*;
+import java.math.*;
+import java.util.regex.*;
 
-class TwoCharacters {
-
-	static int twoCharaters(String s) {
+public class Solution {
+    static int twoCharaters(String s) {
 		int l = s.length();
         if(l<2) return 0;
 		int c[] = new int[26];
@@ -13,9 +15,9 @@ class TwoCharacters {
 		String maxString = "";
 		int max = 0;
 		for(int i=0;i<26;i++){
-			while(i<26 && c[i]==0) i++;
+			// while(i<26 && c[i]==0) i++;
 			for(int j=i+1;j<26;j++){
-				while(j<26 && c[j]==0) j++;
+				// while(j<26 && c[j]==0) j++;
 				StringBuilder sb = new StringBuilder();
 				for(int k=0;k<l;k++){
 					if(s.charAt(k)-'a' == i || s.charAt(k)-'a' == j) sb.append(s.charAt(k));
@@ -31,14 +33,15 @@ class TwoCharacters {
 				}
 			}
 		}
+        //System.out.println("Max String : " + maxString);
 		return max;
 	}
-
-	public static void main(String args[]) {
-		Scanner sc = new Scanner(System.in);
-		int t = sc.nextInt();
-		while(t--!=0){
-			
-		}
-	}
+    public static void main(String[] args) {
+        Scanner in = new Scanner(System.in);
+        int l = in.nextInt();
+        String s = in.next();
+        int result = twoCharaters(s);
+        System.out.println(result);
+        in.close();
+    }
 }

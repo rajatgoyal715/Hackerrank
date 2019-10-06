@@ -1,13 +1,11 @@
-package Strings;
-
-import java.util.*;
 import java.io.*;
+import java.util.*;
+import java.text.*;
+import java.math.*;
+import java.util.regex.*;
 
-/**
- * Created by rajat goyal on 3/19/2017.
- */
+public class Solution {
 
-public class WeightedUniformStrings {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
         String s = in.next();

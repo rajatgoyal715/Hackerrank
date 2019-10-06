@@ -1,11 +1,12 @@
+import java.io.*;
 import java.util.*;
+import java.text.*;
+import java.math.*;
+import java.util.regex.*;
 
-/*
- * @author -- rajatgoyal715
- */
- 
-public class HackerrankInAString {
-	public static void main(String[] args) {
+public class Solution {
+
+    public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
         int q = in.nextInt();
         char c[] = "hackerrank".toCharArray();

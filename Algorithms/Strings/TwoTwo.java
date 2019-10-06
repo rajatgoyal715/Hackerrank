@@ -1,7 +1,7 @@
-import java.util.*;
 import java.io.*;
+import java.util.*;
 
-class TwoTwo {
+public class Solution {
 
 	static Map<String, Boolean> map;
 
@@ -12,6 +12,7 @@ class TwoTwo {
 		map.put("1", true);
 		for(int i=0;i<max;i++){
 			s = multiplyWith2(s);
+			// System.out.println(s);
 			map.put(s, true);
 		}
 	}
@@ -31,9 +32,11 @@ class TwoTwo {
 				for(int j=i+1;j<=l;j++){
 					num = str.substring(i, j);
 					if(map.containsKey(num)) count++;
+					// System.out.println(i + " - " + j + " : " + count);
 				}
 			}
 			ans.append(count + "\n");
+			// System.out.println(count);
 		}
 		System.out.println(ans.toString());
 	}
