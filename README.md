@@ -5,9 +5,12 @@ You can find me on hackerrank [here](https://hackerrank.com/rajatgoyal715).
 
 Automated the process of adding solutions using [Hackerrank Solution Crawler](https://github.com/Nullifiers/Hackerrank-Solution-Crawler).
 
+
+# [Algorithms](https://www.hackerrank.com/domains/algorithms)
+
 <details>
 
-<summary># [Algorithms](https://www.hackerrank.com/domains/algorithms)</summary>
+<summary>Click to expand</summary>
 
 ## [BitManipulation](https://www.hackerrank.com/domains/algorithms/bit-manipulation)
 
