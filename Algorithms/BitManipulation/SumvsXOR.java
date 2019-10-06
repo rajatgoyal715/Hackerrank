@@ -1,13 +1,11 @@
-package BitManipulation;
-
-import java.util.*;
 import java.io.*;
+import java.util.*;
+import java.text.*;
+import java.math.*;
+import java.util.regex.*;
 
-/**
- * Created by rajat goyal on 1/12/2017.
- */
+public class Solution {
 
-public class SumVsXor {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
         long n = in.nextLong();

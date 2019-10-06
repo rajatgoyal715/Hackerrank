@@ -1,8 +1,12 @@
-import java.util.*;
 import java.io.*;
+import java.util.*;
+import java.text.*;
+import java.math.*;
+import java.util.regex.*;
 
-class TheGreatXor {
-	static long theGreatXor(long x){
+public class Solution {
+
+    static long theGreatXor(long x){
         String s = Long.toBinaryString(x);
         int l = s.length();
         long ans = (long)Math.pow(2,l)-x-1;

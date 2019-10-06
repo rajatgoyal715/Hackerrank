@@ -1,12 +1,24 @@
+import java.io.*;
 import java.util.*;
+import java.text.*;
+import java.math.*;
+import java.util.regex.*;
 
-/*
- * @author -- rajatgoyal715
- */
- 
-public class LonelyInteger {
-	public static void main(String args[]) {
-		Scanner in = new Scanner(System.in);
+public class Solution {
+   static int lonelyinteger(int[] a) {
+       int count[] = new int[101];
+       int item;
+       for(int i=0;i<a.length;i++){
+           count[a[i]]++;
+       }
+       for(int i=0;i<101;i++){
+           if(count[i]%2!=0)
+               return i;
+       }
+      return 0;
+    }
+   public static void main(String[] args) {
+        Scanner in = new Scanner(System.in);
         int res;
         
         int _a_size = Integer.parseInt(in.nextLine());
@@ -22,18 +34,6 @@ public class LonelyInteger {
         
         res = lonelyinteger(_a);
         System.out.println(res);
-	}
-
-	static int lonelyinteger(int[] a) {
-       int count[] = new int[101];
-       int item;
-       for(int i=0;i<a.length;i++){
-           count[a[i]]++;
-       }
-       for(int i=0;i<101;i++){
-           if(count[i]%2!=0)
-               return i;
-       }
-      return 0;
+        
     }
 }

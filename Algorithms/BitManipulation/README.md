@@ -1,12 +1,14 @@
-## [Bit Manipulation](https://www.hackerrank.com/domains/algorithms/bit-manipulation)
+## [BitManipulation](https://www.hackerrank.com/domains/algorithms/bit-manipulation)
 
-Problem Name | Problem Link | Solution Link
------------- | ------------ | -------------
-Lonely Integer | [Problem](https://www.hackerrank.com/challenges/lonely-integer/problem) | [Solution](/LonelyInteger.java)
-Maximising XOR | [Problem](https://www.hackerrank.com/challenges/maximizing-xor/problem) | [Solution](/MaximisingXOR.java)
-Sum Vs Xor | [Problem](https://www.hackerrank.com/challenges/sum-vs-xor/problem) | [Solution](/SumVsXor.java)
-The Great Xor | [Problem](https://www.hackerrank.com/challenges/the-great-xor/problem) | [Solution](/TheGreatXor.java)
-Flipping Bits | [Problem](https://www.hackerrank.com/challenges/flipping-bits/problem) | [Solution](/FlippingBits.java)
-Sansa And Xor | [Problem](https://www.hackerrank.com/challenges/sansa-and-xor/problem) | [Solution](/SansaAndXor.java)
-And Product | [Problem](https://www.hackerrank.com/challenges/and-product/problem)	| [Solution](/AndProduct.java)
-Cipher | [Problem](https://www.hackerrank.com/challenges/cipher/problem) | [Solution](/Cipher.java)
+|Problem Name|Problem Link|Language|Solution Link|
+---|---|---|---
+|Flipping bits|[Problem](https://www.hackerrank.com/challenges/flipping-bits/problem)|java|[Solution](./Flippingbits.java)|
+|AND Product|[Problem](https://www.hackerrank.com/challenges/and-product/problem)|java8|[Solution](./ANDProduct.java)|
+|Cipher|[Problem](https://www.hackerrank.com/challenges/cipher/problem)|java8|[Solution](./Cipher.java)|
+|Counter game|[Problem](https://www.hackerrank.com/challenges/counter-game/problem)|java|[Solution](./Countergame.java)|
+|Lonely Integer|[Problem](https://www.hackerrank.com/challenges/lonely-integer/problem)|java|[Solution](./LonelyInteger.java)|
+|Maximizing XOR|[Problem](https://www.hackerrank.com/challenges/maximizing-xor/problem)|java|[Solution](./MaximizingXOR.java)|
+|Sansa and XOR|[Problem](https://www.hackerrank.com/challenges/sansa-and-xor/problem)|java8|[Solution](./SansaandXOR.java)|
+|Sum vs XOR|[Problem](https://www.hackerrank.com/challenges/sum-vs-xor/problem)|java|[Solution](./SumvsXOR.java)|
+|The Great XOR|[Problem](https://www.hackerrank.com/challenges/the-great-xor/problem)|java8|[Solution](./TheGreatXOR.java)|
+|Xoring Ninja|[Problem](https://www.hackerrank.com/challenges/xoring-ninja/problem)|java|[Solution](./XoringNinja.java)|

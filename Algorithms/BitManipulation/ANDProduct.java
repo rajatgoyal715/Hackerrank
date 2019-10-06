@@ -1,9 +1,10 @@
-import java.util.*;
 import java.io.*;
+import java.util.*;
 
-class AndProduct{
-	public static void main(String args[]) {
-		Scanner sc = new Scanner(System.in);
+public class Solution {
+
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
         while(n--!=0){
             long a=sc.nextLong();
@@ -26,5 +27,5 @@ class AndProduct{
             }
             System.out.println(and);
         }
-	}
+    }
 }
