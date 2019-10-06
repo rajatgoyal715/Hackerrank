@@ -1,9 +1,12 @@
-import java.util.*;
 import java.io.*;
+import java.util.*;
+import java.text.*;
+import java.math.*;
+import java.util.regex.*;
 
-class OrganisingContainersOfBalls {
-	
-	static String organizingContainers(int[][] c) {
+public class Solution {
+
+    static String organizingContainers(int[][] c) {
         int n = c.length;
 		boolean flag = true;
 		int a[] = new int[n];
@@ -27,7 +30,7 @@ class OrganisingContainersOfBalls {
 			}
 		}
 		return flag ? "Possible" : "Impossible";
-	}
+    }
 
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);

@@ -1,8 +1,12 @@
-import java.util.*;
 import java.io.*;
+import java.util.*;
+import java.text.*;
+import java.math.*;
+import java.util.regex.*;
 
-class AlmostSorted {
-	static void almostSorted(int[] a) {
+public class Solution {
+
+    static void almostSorted(int[] a) {
         int n = a.length;
         int up = 0, down = 0;
         int l = 0, r = 0;

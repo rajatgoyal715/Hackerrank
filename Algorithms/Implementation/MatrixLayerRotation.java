@@ -1,12 +1,19 @@
-import java.util.*;
 import java.io.*;
+import java.util.*;
+import java.text.*;
+import java.math.*;
+import java.util.regex.*;
 
-class MatrixLayerRotation {
-	static void matrixRotation(int[][] a, int r) {
+public class Solution {
+
+    static void matrixRotation(int[][] a, int r) {
         int n = a.length;
         int m = a[0].length;
         ArrayList<ArrayList<Integer>> list = new ArrayList<>();
         int min = Math.min(n, m);
+        // for(int i=0;i<(min+1)/2;i++){
+        //     list.add(new ArrayList<Integer>());
+        // }
         for(int k=0;k<(min+1)/2;k++){
             ArrayList<Integer> l = new ArrayList<>();
             int i = k, j = k;
@@ -32,10 +39,12 @@ class MatrixLayerRotation {
                 l.add(a[i][j]);
                 i--;
             }
+            // System.out.println(l);
             list.add(l);
         }
         for(int k=0;k<(min+1)/2;k++){
             ArrayList<Integer> l = list.get(k);
+            // System.out.println(l);
             int len = l.size();
             int count = 0;
             int i = k, j = k;

@@ -1,13 +1,10 @@
-package Implementation;
-
-import java.util.*;
 import java.io.*;
+import java.util.*;
+import java.text.*;
+import java.math.*;
+import java.util.regex.*;
 
-/*
- * @author -- rajatgoyal715
- */
-
-public class NonDivisibleSubset {
+public class Solution {
     public static void main(String args[]){
         Scanner sc = new Scanner(System.in);
         int n=sc.nextInt();
@@ -28,7 +25,9 @@ public class NonDivisibleSubset {
             f[i]++;
         }
         if(k==1) return 1;
-        if(k==2) return ((f[0]!=0) ? 1 : 0) + ((f[1]!=0) ? 1 : 0);
+        if(k==2){
+            return ((f[0]!=0) ? 1 : 0) + ((f[1]!=0) ? 1 : 0);
+        }
         //printArray(f);
         int sum = f[0]!=0 ? 1 : 0;
         int mid = (k-1)/2;
@@ -45,22 +44,5 @@ public class NonDivisibleSubset {
             System.out.print(arr[i] + " ");
         }
         System.out.println();
-    }
-
-    public static int take1(int[] a, int[] b, int n, int k){
-        int t1,t2;
-        int max=0,count;
-        for(int i=0;i<n;i++){
-            t1=a[i];
-            t2=k-a[i];
-            count=0;
-            for(int j=0;j<n;j++){
-                if(a[j]!=t2)
-                    count++;
-            }
-            if(count>max)
-                max=count;
-        }
-        return max;
     }
 }

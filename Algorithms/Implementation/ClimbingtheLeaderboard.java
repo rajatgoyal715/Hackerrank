@@ -1,11 +1,12 @@
+import java.io.*;
 import java.util.*;
+import java.text.*;
+import java.math.*;
+import java.util.regex.*;
 
-/*
- * @author -- rajatgoyal715
- */
+public class Solution {
 
-public class ClimbingTheLeaderboard {
-	public static void main(String args[]) {
+    public static void main(String args[]) {
 		Scanner in = new Scanner(System.in);
 		int n = in.nextInt();
         int[] scores = new int[n];
@@ -33,5 +34,6 @@ public class ClimbingTheLeaderboard {
                 aliceRank = rank[index];
             System.out.println(aliceRank);
         }
+
 	}
 }

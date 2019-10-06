@@ -1,13 +1,7 @@
-package Implementation;
-
 import java.util.Scanner;
 import java.math.BigInteger;
+public class Solution {
 
-/*
- * @author -- rajatgoyal715
- */
-
-public class ExtraLongFactorials {
     public static BigInteger factorial(int num){
         BigInteger fact = BigInteger.ONE;
         for(int i=num;i>1;i--){

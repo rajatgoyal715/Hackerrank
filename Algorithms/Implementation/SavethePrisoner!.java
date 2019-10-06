@@ -1,12 +1,11 @@
-package Implementation;
+import java.io.*;
+import java.util.*;
+import java.text.*;
+import java.math.*;
+import java.util.regex.*;
 
-import java.util.Scanner;
+public class Solution {
 
-/*
- * @author -- rajatgoyal715
- */
-
-public class SaveThePrisoner {
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
         int t=sc.nextInt();
@@ -19,6 +18,7 @@ public class SaveThePrisoner {
                 if(s>n)
                     s=s%n;
             }
+            //int a=(s+m-1)%5;
             System.out.println(s);
         }
     }

@@ -1,13 +1,7 @@
-package Implementation;
-
 import java.util.Scanner;
 
-/*
- * @author -- rajatgoyal715
- */
-
-public class TaumAndBday {
-    public static void main(String args[]){
+public class Solution {
+public static void main(String args[]){
         Scanner sc = new Scanner(System.in);
         int t = sc.nextInt();
         while(t--!=0){

@@ -1,11 +1,12 @@
+import java.io.*;
 import java.util.*;
+import java.text.*;
+import java.math.*;
+import java.util.regex.*;
 
-/*
- * @author -- rajatgoyal715
- */
- 
-public class BirthdayChocolate {
-	public static void main(String args[]) {
+public class Solution {
+
+    public static void main(String args[]) {
 		Scanner sc = new Scanner(System.in);
 		int n = sc.nextInt();
 		int s[] = new int[n];

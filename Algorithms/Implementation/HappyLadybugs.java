@@ -1,11 +1,12 @@
+import java.io.*;
 import java.util.*;
+import java.text.*;
+import java.math.*;
+import java.util.regex.*;
 
-/*
- * @author -- rajatgoyal715
- */
- 
-public class HappyLadybugs {
-	public static void main(String[] args) {
+public class Solution {
+
+    public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
         int Q = in.nextInt();
         for(int a0 = 0; a0 < Q; a0++){

@@ -1,11 +1,11 @@
-import java.util.*;
 import java.io.*;
+import java.util.*;
+import java.text.*;
+import java.math.*;
+import java.util.regex.*;
 
-/**
- * Created by rajat goyal on 1/12/2017.
- */
+public class Solution {
 
-public class AppendAndDelete {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
         char s[] = in.next().toCharArray();
@@ -32,7 +32,7 @@ public class AppendAndDelete {
             ans = "Yes";
         else if(k>(s1+t1))
             ans = "Yes";
-
+            
         System.out.println(ans);
     }
 }

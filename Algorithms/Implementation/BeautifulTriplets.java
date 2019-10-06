@@ -1,12 +1,11 @@
-package Implementation;
+import java.io.*;
+import java.util.*;
+import java.text.*;
+import java.math.*;
+import java.util.regex.*;
 
-import java.util.Scanner;
+public class Solution {
 
-/*
- * @author -- rajatgoyal715
- */
-
-public class BeautifulTriplets {
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
         int n=sc.nextInt();
@@ -21,6 +20,7 @@ public class BeautifulTriplets {
             int count=0;
             for(int j=i;j<n;j++){
                 if(num+d==a[j]){
+                    //System.out.println(a[j]);
                     count++;
                     num=a[j];
                 }

@@ -1,14 +1,11 @@
-package Implementation;
+import java.io.*;
+import java.util.*;
+import java.text.*;
+import java.math.*;
+import java.util.regex.*;
 
-import java.io.BufferedReader;
-import java.io.IOException;
-import java.io.InputStreamReader;
+public class Solution {
 
-/*
- * @author -- rajatgoyal715
- */
-
-public class LarrysArray {
     public static void main(String[] args) throws IOException{
         BufferedReader br=new BufferedReader(new InputStreamReader(System.in));
         int t=Integer.parseInt(br.readLine());
@@ -16,8 +13,13 @@ public class LarrysArray {
             int n=Integer.parseInt(br.readLine());
             String s[]=br.readLine().split(" ");
             int a[]=new int[n];
+            int a1,a2,a3;
             for(int i=0;i<n;i++)
                 a[i]=Integer.parseInt(s[i]);
+            /*for(int i=0;i<n;i++)
+                System.out.print(a[i]+" ");
+            System.out.println();
+            */
             int prev;
             boolean flag1=false;
             int count,temp;
@@ -58,6 +60,10 @@ public class LarrysArray {
                                 a[i-1]=a[i-2];
                                 a[i-2]=temp;
                             }
+                            /*else if(a[i-2]<a[i]){
+                                flag1=false;
+                                break label;
+                            }*/
                         }
                     }
                     else{
@@ -65,6 +71,10 @@ public class LarrysArray {
                     }
                     prev=a[i];
                 }
+                /*for(int i=0;i<n;i++)
+                    System.out.print(a[i]+" ");
+                System.out.println();
+                */
                 if(count==n-1){
                     flag1=true;
                     break;

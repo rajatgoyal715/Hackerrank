@@ -1,11 +1,11 @@
-import java.util.*;
 import java.io.*;
+import java.util.*;
+import java.text.*;
+import java.math.*;
+import java.util.regex.*;
 
-/**
- * Created by rajat goyal on 3/19/2017.
- */
+public class Solution {
 
-public class PickingNumbers {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
         int n = in.nextInt();
@@ -13,10 +13,14 @@ public class PickingNumbers {
         for(int a_i=0; a_i < n; a_i++){
             a[a_i] = in.nextInt();
         }
-
+        
         pickNumbers(a, n);
+        
+        // testcases
+        // 1 2 2 3 3 3
+        // 1 2 3 4 5 6
     }
-
+    
     public static void pickNumbers(int[] a, int n) {
         Arrays.sort(a);
         int max = 0;

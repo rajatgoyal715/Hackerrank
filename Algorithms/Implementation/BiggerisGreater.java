@@ -1,14 +1,8 @@
-package Implementation;
+import java.io.*;
+import java.util.*;
 
-import java.io.BufferedReader;
-import java.io.IOException;
-import java.io.InputStreamReader;
+public class Solution {
 
-/*
- * @author -- rajatgoyal715
- */
-
-public class BiggerIsGreater {
     public static void main(String[] args) throws IOException{
         BufferedReader br=new BufferedReader(new InputStreamReader(System.in));
         int t=Integer.parseInt(br.readLine());
@@ -39,7 +33,6 @@ public class BiggerIsGreater {
             arr[r]=arr[s];
             arr[s]=temp;
         }
-        
         System.out.println(arr);
         return true;
     }

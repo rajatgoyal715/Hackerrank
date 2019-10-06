@@ -1,12 +1,5 @@
-package Implementation;
-
 import java.util.Scanner;
-
-/*
- * @author -- rajatgoyal715
- */
-
-public class CutTheSticks {
+public class Solution {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();

@@ -1,12 +1,7 @@
-package Implementation;
-
 import java.util.Scanner;
 
-/*
- * @author -- rajatgoyal715
- */
+public class Solution {
 
-public class LibraryFine {
     public static void main(String[] args) {
         Scanner s = new Scanner(System.in);
         int ad = s.nextInt();

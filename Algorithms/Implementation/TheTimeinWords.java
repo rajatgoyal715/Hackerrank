@@ -1,6 +1,9 @@
 import java.util.Scanner;
-
-public class TheTimeInWords {
+/**
+ *
+ * @author mukul goyal
+ */
+public class timeconversion {
     public static void main(String args[]){
         Scanner sc = new Scanner(System.in);
         int num1,num2;

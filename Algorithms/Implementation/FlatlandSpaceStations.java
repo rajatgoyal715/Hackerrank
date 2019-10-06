@@ -1,13 +1,11 @@
-package Implementation;
+import java.io.*;
+import java.util.*;
+import java.text.*;
+import java.math.*;
+import java.util.regex.*;
 
-import java.util.Arrays;
-import java.util.Scanner;
+public class Solution {
 
-/*
- * @author -- rajatgoyal715
- */
-
-public class FlatlandSpaceStations {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
         int n = in.nextInt();
@@ -22,6 +20,7 @@ public class FlatlandSpaceStations {
         int max=0;
         while(i==c[0]){
             a[i]=Math.abs(c[0]-i);
+            //System.out.println("1 "+a[i]);
             if(a[i]>max){
                 max=a[i];
             }
@@ -30,6 +29,7 @@ public class FlatlandSpaceStations {
         int curr=0,next=1;
         while(next<m&&i<n){
             a[i]=Math.min(Math.abs(c[next]-i),Math.abs(i-c[curr]));
+            //System.out.println("2 "+a[i]+" "+(c[next]-i)+" "+(i-c[curr]));
             if(a[i]>max){
                 max=a[i];
             }
@@ -39,8 +39,10 @@ public class FlatlandSpaceStations {
             }
             i++;
         }
+        //System.out.println(curr+" "+next);
         while(i<n){
             a[i]=Math.abs(c[curr]-i);
+            //System.out.println("3 "+a[i]);
             if(a[i]>max){
                 max=a[i];
             }

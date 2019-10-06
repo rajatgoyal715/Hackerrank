@@ -1,12 +1,11 @@
-package Implementation;
+import java.io.*;
+import java.util.*;
+import java.text.*;
+import java.math.*;
+import java.util.regex.*;
 
-/*
- * @author -- rajatgoyal715
- */
+public class Solution {
 
-import java.util.Scanner;
-
-public class JumpingOnClouds {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
         int n = in.nextInt();

@@ -1,14 +1,9 @@
-package Implementation;
-
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
-/*
- * @author -- rajatgoyal715
- */
+public class Solution {
 
-public class CavityMap {
     public static void main(String[] args) throws IOException {
         BufferedReader x = new BufferedReader(new InputStreamReader(System.in));
         int size = Integer.parseInt(x.readLine());
