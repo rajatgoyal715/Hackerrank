@@ -1,12 +1,11 @@
-package Warmup;
+import java.io.*;
+import java.util.*;
+import java.text.*;
+import java.math.*;
+import java.util.regex.*;
 
-import java.util.Scanner;
+public class Solution {
 
-/*
- * @author -- rajatgoyal715
- */
-
-public class CompareTheTriplets {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
         int a0 = in.nextInt();

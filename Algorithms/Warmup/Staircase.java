@@ -1,12 +1,7 @@
-package Warmup;
-
 import java.util.Scanner;
 
-/*
- * @author -- rajatgoyal715
- */
+public class Solution {
 
-public class Staircase {
     public static void main(String args[]){
         Scanner sc = new Scanner(System.in);
         int h = sc.nextInt();

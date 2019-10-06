@@ -1,12 +1,7 @@
-package Warmup;
-
 import java.util.Scanner;
 
-/*
- * @author -- rajatgoyal715
- */
+public class Solution {
 
-public class AVeryBigSum {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
