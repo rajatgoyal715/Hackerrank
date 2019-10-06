@@ -10,7 +10,7 @@ Automated the process of adding solutions using [Hackerrank Solution Crawler](ht
 
 <details>
 
-<summary>Click to expand</summary>
+<summary>Click to expand/collapse</summary>
 
 ## [BitManipulation](https://www.hackerrank.com/domains/algorithms/bit-manipulation)
 
@@ -257,6 +257,10 @@ Automated the process of adding solutions using [Hackerrank Solution Crawler](ht
 # [Java](https://www.hackerrank.com/domains/java)
 
 
+<details>
+
+<summary>Click to expand/collapse</summary>
+
 ## [Advanced](https://www.hackerrank.com/domains/java/java-advanced)
 
 |Problem Name|Problem Link|Language|Solution Link|
@@ -361,3 +365,5 @@ Automated the process of adding solutions using [Hackerrank Solution Crawler](ht
 |Pattern Syntax Checker|[Problem](https://www.hackerrank.com/challenges/pattern-syntax-checker/problem)|java8|[Solution](./PatternSyntaxChecker.java)|
 |Tag Content Extractor|[Problem](https://www.hackerrank.com/challenges/tag-content-extractor/problem)|java|[Solution](./TagContentExtractor.java)|
 |Valid Username Regular Expression|[Problem](https://www.hackerrank.com/challenges/valid-username-checker/problem)|java|[Solution](./ValidUsernameRegularExpression.java)|
+
+</details>
