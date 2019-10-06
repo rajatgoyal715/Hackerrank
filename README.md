@@ -6,13 +6,13 @@ You can find me on hackerrank [here](https://hackerrank.com/rajatgoyal715).
 Automated the process of adding solutions using [Hackerrank Solution Crawler](https://github.com/Nullifiers/Hackerrank-Solution-Crawler).
 
 
-# [Algorithms](https://www.hackerrank.com/domains/algorithms)
+## [Algorithms](https://www.hackerrank.com/domains/algorithms)
 
 <details>
 
 <summary>Click to expand/collapse</summary>
 
-## [BitManipulation](https://www.hackerrank.com/domains/algorithms/bit-manipulation)
+### [BitManipulation](https://www.hackerrank.com/domains/algorithms/bit-manipulation)
 
 |Problem Name|Problem Link|Language|Solution Link|
 ---|---|---|---
@@ -28,7 +28,7 @@ Automated the process of adding solutions using [Hackerrank Solution Crawler](ht
 |Xoring Ninja|[Problem](https://www.hackerrank.com/challenges/xoring-ninja/problem)|java|[Solution](./XoringNinja.java)|
 
 
-## [ConstructiveAlgorithms](https://www.hackerrank.com/domains/algorithms/constructive-algorithms)
+### [ConstructiveAlgorithms](https://www.hackerrank.com/domains/algorithms/constructive-algorithms)
 
 |Problem Name|Problem Link|Language|Solution Link|
 ---|---|---|---
@@ -38,7 +38,7 @@ Automated the process of adding solutions using [Hackerrank Solution Crawler](ht
 |Flipping the Matrix|[Problem](https://www.hackerrank.com/challenges/flipping-the-matrix/problem)|java|[Solution](./FlippingtheMatrix.java)|
 
 
-## [DynamicProgramming](https://www.hackerrank.com/domains/algorithms/dynamic-programming)
+### [DynamicProgramming](https://www.hackerrank.com/domains/algorithms/dynamic-programming)
 
 |Problem Name|Problem Link|Language|Solution Link|
 ---|---|---|---
@@ -52,7 +52,7 @@ Automated the process of adding solutions using [Hackerrank Solution Crawler](ht
 |The Maximum Subarray|[Problem](https://www.hackerrank.com/challenges/maxsubarray/problem)|java|[Solution](./TheMaximumSubarray.java)|
 
 
-## [GameTheory](https://www.hackerrank.com/domains/algorithms/game-theory)
+### [GameTheory](https://www.hackerrank.com/domains/algorithms/game-theory)
 
 |Problem Name|Problem Link|Language|Solution Link|
 ---|---|---|---
@@ -62,7 +62,7 @@ Automated the process of adding solutions using [Hackerrank Solution Crawler](ht
 |Tower Breakers |[Problem](https://www.hackerrank.com/challenges/tower-breakers-1/problem)|java|[Solution](./TowerBreakers.java)|
 
 
-## [GraphTheory](https://www.hackerrank.com/domains/algorithms/graph-theory)
+### [GraphTheory](https://www.hackerrank.com/domains/algorithms/graph-theory)
 
 |Problem Name|Problem Link|Language|Solution Link|
 ---|---|---|---
@@ -70,7 +70,7 @@ Automated the process of adding solutions using [Hackerrank Solution Crawler](ht
 |Breadth First Search: Shortest Reach|[Problem](https://www.hackerrank.com/challenges/bfsshortreach/problem)|java8|[Solution](./BreadthFirstSearch:ShortestReach.java)|
 
 
-## [Greedy](https://www.hackerrank.com/domains/algorithms/greedy)
+### [Greedy](https://www.hackerrank.com/domains/algorithms/greedy)
 
 |Problem Name|Problem Link|Language|Solution Link|
 ---|---|---|---
@@ -95,7 +95,7 @@ Automated the process of adding solutions using [Hackerrank Solution Crawler](ht
 |Team Formation|[Problem](https://www.hackerrank.com/challenges/team-formation/problem)|java|[Solution](./TeamFormation.java)|
 
 
-## [Implementation](https://www.hackerrank.com/domains/algorithms/implementation)
+### [Implementation](https://www.hackerrank.com/domains/algorithms/implementation)
 
 |Problem Name|Problem Link|Language|Solution Link|
 ---|---|---|---
@@ -165,14 +165,14 @@ Automated the process of adding solutions using [Hackerrank Solution Crawler](ht
 |Viral Advertising|[Problem](https://www.hackerrank.com/challenges/strange-advertising/problem)|java|[Solution](./ViralAdvertising.java)|
 
 
-## [Recursion](https://www.hackerrank.com/domains/algorithms/recursion)
+### [Recursion](https://www.hackerrank.com/domains/algorithms/recursion)
 
 |Problem Name|Problem Link|Language|Solution Link|
 ---|---|---|---
 |The Power Sum|[Problem](https://www.hackerrank.com/challenges/the-power-sum/problem)|java|[Solution](./ThePowerSum.java)|
 
 
-## [Search](https://www.hackerrank.com/domains/algorithms/search)
+### [Search](https://www.hackerrank.com/domains/algorithms/search)
 
 |Problem Name|Problem Link|Language|Solution Link|
 ---|---|---|---
@@ -185,7 +185,7 @@ Automated the process of adding solutions using [Hackerrank Solution Crawler](ht
 |Sherlock and Array|[Problem](https://www.hackerrank.com/challenges/sherlock-and-array/problem)|java|[Solution](./SherlockandArray.java)|
 
 
-## [Sorting](https://www.hackerrank.com/domains/algorithms/arrays-and-sorting)
+### [Sorting](https://www.hackerrank.com/domains/algorithms/arrays-and-sorting)
 
 |Problem Name|Problem Link|Language|Solution Link|
 ---|---|---|---
@@ -202,7 +202,7 @@ Automated the process of adding solutions using [Hackerrank Solution Crawler](ht
 |Running Time of Algorithms|[Problem](https://www.hackerrank.com/challenges/runningtime/problem)|java|[Solution](./RunningTimeofAlgorithms.java)|
 
 
-## [Strings](https://www.hackerrank.com/domains/algorithms/strings)
+### [Strings](https://www.hackerrank.com/domains/algorithms/strings)
 
 |Problem Name|Problem Link|Language|Solution Link|
 ---|---|---|---
@@ -236,7 +236,7 @@ Automated the process of adding solutions using [Hackerrank Solution Crawler](ht
 |Weighted Uniform Strings|[Problem](https://www.hackerrank.com/challenges/weighted-uniform-string/problem)|java8|[Solution](./WeightedUniformStrings.java)|
 
 
-## [Warmup](https://www.hackerrank.com/domains/algorithms/warmup)
+### [Warmup](https://www.hackerrank.com/domains/algorithms/warmup)
 
 |Problem Name|Problem Link|Language|Solution Link|
 ---|---|---|---
@@ -254,14 +254,14 @@ Automated the process of adding solutions using [Hackerrank Solution Crawler](ht
 </details>
 
 
-# [Java](https://www.hackerrank.com/domains/java)
+## [Java](https://www.hackerrank.com/domains/java)
 
 
 <details>
 
 <summary>Click to expand/collapse</summary>
 
-## [Advanced](https://www.hackerrank.com/domains/java/java-advanced)
+### [Advanced](https://www.hackerrank.com/domains/java/java-advanced)
 
 |Problem Name|Problem Link|Language|Solution Link|
 ---|---|---|---
@@ -279,7 +279,7 @@ Automated the process of adding solutions using [Hackerrank Solution Crawler](ht
 |Prime Checker|[Problem](https://www.hackerrank.com/challenges/prime-checker/problem)|java|[Solution](./PrimeChecker.java)|
 
 
-## [BigNumber](https://www.hackerrank.com/domains/java/bignumber)
+### [BigNumber](https://www.hackerrank.com/domains/java/bignumber)
 
 |Problem Name|Problem Link|Language|Solution Link|
 ---|---|---|---
@@ -288,7 +288,7 @@ Automated the process of adding solutions using [Hackerrank Solution Crawler](ht
 |Java BigInteger|[Problem](https://www.hackerrank.com/challenges/java-biginteger/problem)|java|[Solution](./JavaBigInteger.java)|
 
 
-## [DataStructures](https://www.hackerrank.com/domains/java/java-data-structure)
+### [DataStructures](https://www.hackerrank.com/domains/java/java-data-structure)
 
 |Problem Name|Problem Link|Language|Solution Link|
 ---|---|---|---
@@ -309,7 +309,7 @@ Automated the process of adding solutions using [Hackerrank Solution Crawler](ht
 |Java Subarray|[Problem](https://www.hackerrank.com/challenges/java-negative-subarray/problem)|java|[Solution](./JavaSubarray.java)|
 
 
-## [ExceptionHandling](https://www.hackerrank.com/domains/java/handling-exceptions)
+### [ExceptionHandling](https://www.hackerrank.com/domains/java/handling-exceptions)
 
 |Problem Name|Problem Link|Language|Solution Link|
 ---|---|---|---
@@ -317,7 +317,7 @@ Automated the process of adding solutions using [Hackerrank Solution Crawler](ht
 |Java Exception Handling (Try-catch)|[Problem](https://www.hackerrank.com/challenges/java-exception-handling-try-catch/problem)|java|[Solution](./JavaExceptionHandling(Try-catch).java)|
 
 
-## [Introduction](https://www.hackerrank.com/domains/java/java-introduction)
+### [Introduction](https://www.hackerrank.com/domains/java/java-introduction)
 
 |Problem Name|Problem Link|Language|Solution Link|
 ---|---|---|---
@@ -336,7 +336,7 @@ Automated the process of adding solutions using [Hackerrank Solution Crawler](ht
 |Welcome to Java!|[Problem](https://www.hackerrank.com/challenges/welcome-to-java/problem)|java|[Solution](./WelcometoJava!.java)|
 
 
-## [ObjectOrientedProgramming](https://www.hackerrank.com/domains/java/oop)
+### [ObjectOrientedProgramming](https://www.hackerrank.com/domains/java/oop)
 
 |Problem Name|Problem Link|Language|Solution Link|
 ---|---|---|---
@@ -350,7 +350,7 @@ Automated the process of adding solutions using [Hackerrank Solution Crawler](ht
 |Java Method Overriding|[Problem](https://www.hackerrank.com/challenges/java-method-overriding/problem)|java|[Solution](./JavaMethodOverriding.java)|
 
 
-## [Strings](https://www.hackerrank.com/domains/java/java-strings)
+### [Strings](https://www.hackerrank.com/domains/java/java-strings)
 
 |Problem Name|Problem Link|Language|Solution Link|
 ---|---|---|---
