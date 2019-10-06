@@ -1,8 +1,12 @@
-import java.util.*;
 import java.io.*;
+import java.util.*;
+import java.text.*;
+import java.math.*;
+import java.util.regex.*;
 
-class NewYearChaos {
-	static void minimumBribes(int[] q) {
+public class Solution {
+
+    static void minimumBribes(int[] q) {
         int ans = 0;
         for (int i = q.length - 1; i >= 0; i--) {
             if (q[i] - (i + 1) > 2) {
