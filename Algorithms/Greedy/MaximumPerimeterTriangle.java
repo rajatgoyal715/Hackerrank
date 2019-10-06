@@ -1,13 +1,14 @@
+import java.io.*;
 import java.util.*;
+import java.text.*;
+import java.math.*;
+import java.util.regex.*;
 
-/*
- * @author -- rajatgoyal715
- */
- 
-public class MaximumPerimeterTriangle {
-	public static void main(String args[]) {
-		Scanner sc = new Scanner(System.in);
-		int n=sc.nextInt();
+public class Solution {
+
+    public static void main(String[] args) {
+        Scanner sc=new Scanner(System.in);
+        int n=sc.nextInt();
         int arr[]=new int[n];
         for(int i=0;i<n;i++)
             arr[i]=sc.nextInt();
@@ -22,5 +23,5 @@ public class MaximumPerimeterTriangle {
             }
         }
         System.out.println((flag)?(a+" "+b+" "+c):"-1");
-	}
+    }
 }

@@ -1,13 +1,11 @@
-package Greedy;
-
-import java.util.*;
 import java.io.*;
+import java.util.*;
+import java.text.*;
+import java.math.*;
+import java.util.regex.*;
 
-/*
- * @author -- rajatgoyal715
- */
+public class Solution {
 
-public class LuckBalance {
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
         int n=sc.nextInt();
@@ -38,11 +36,18 @@ public class LuckBalance {
             for(int i=n-k;i<n;i++){
                 sum+=b[i];
             }
+            //System.out.println("greater than");
         }
         else{
             for(int i=total;i<n;i++)
                 sum+=b[i];
+            //System.out.println("less than");
         }
+        /*System.out.println("Printing B");
+        for(int i=0;i<n;i++)
+            System.out.print(b[i]+" ");
+        System.out.println(total);
+        System.out.println(n2);*/
         System.out.println(sum); 
     }
 }

@@ -1,13 +1,11 @@
-package Greedy;
-
-import java.util.*;
 import java.io.*;
+import java.util.*;
+import java.text.*;
+import java.math.*;
+import java.util.regex.*;
 
-/**
- * Created by rajat goyal on 3/19/2017.
- */
+public class Solution {
 
-public class MarcsCakewalk {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
         int n = in.nextInt();
@@ -17,7 +15,7 @@ public class MarcsCakewalk {
         }
         method1(calories, n);
     }
-
+    
     public static void method1(int[] c,int n) {
         Arrays.sort(c);
         long sum = 0;

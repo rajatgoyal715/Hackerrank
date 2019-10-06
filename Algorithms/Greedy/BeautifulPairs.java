@@ -1,13 +1,8 @@
-package Greedy;
-
-import java.util.*;
 import java.io.*;
+import java.util.*;
 
-/*
- * @author -- rajatgoyal715
- */
+public class Solution {
 
-public class BeautifulPairs {
     public static void main(String[] args) throws IOException{
         BufferedReader br=new BufferedReader(new InputStreamReader(System.in));
         int n=Integer.parseInt(br.readLine());

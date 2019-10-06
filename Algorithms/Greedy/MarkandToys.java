@@ -1,13 +1,10 @@
-package Greedy;
-
-import java.util.*;
 import java.io.*;
+import java.util.*;
+import java.text.*;
+import java.math.*;
+import java.util.regex.*;
 
-/*
- * @author -- rajatgoyal715
- */
-
-public class MarkAndToys {
+public class Solution {
     public static void main(String[] args) {
         Scanner stdin=new Scanner(System.in);
         int n=stdin.nextInt(),k=stdin.nextInt();

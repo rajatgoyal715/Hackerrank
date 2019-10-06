@@ -1,18 +1,19 @@
-package Greedy;
-
-import java.util.*;
 import java.io.*;
+import java.util.*;
+import java.text.*;
+import java.math.*;
+import java.util.regex.*;
 
-/*
- * @author -- rajatgoyal715
- */
+public class Solution {
 
-public class JimAndOrders {
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
         int n=sc.nextInt();
         int a[] = new int[n];
         String s[]=new String[n+1];
+        //Map<Key, Value>
+        //key is a[i]
+        //value is index
         Map<Integer,Integer> map = new TreeMap<Integer,Integer>();
         for(int i=0;i<n;i++){
             a[i]=sc.nextInt()+sc.nextInt();
