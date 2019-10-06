@@ -1,13 +1,7 @@
-package Search;
-
-import java.util.*;
 import java.io.*;
+import java.util.*;
 
-/*
- * @author -- rajatgoyal715
- */
-
-public class ConnectedCellsInGrid {
+public class Solution {
     static int m,n;
     public static void main(String[] args) throws IOException{
         BufferedReader br=new BufferedReader(new InputStreamReader(System.in));
