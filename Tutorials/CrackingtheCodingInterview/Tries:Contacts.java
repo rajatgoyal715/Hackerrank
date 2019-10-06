@@ -12,6 +12,7 @@ public class Contacts {
         }
 
         void addWord(String word) {
+            // System.out.println("Adding " + word);
             count++;
             if(word.isEmpty()) return;
             char first = word.charAt(0);
@@ -22,6 +23,7 @@ public class Contacts {
         }
 
         int findWord(String word) {
+            // System.out.println("Finding " + word);
             if(word.isEmpty()) return count;
             char first = word.charAt(0);
             if(children[first-'a'] == null) return 0;

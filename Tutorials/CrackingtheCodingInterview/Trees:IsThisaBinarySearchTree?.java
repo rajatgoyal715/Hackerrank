@@ -9,8 +9,8 @@ The Node class is defined as follows:
 */
 
 boolean checkBSTUtil(Node root, int max, int min) {
-    if (root == null) return true;
-    if (root.data < max && root.data > min) return checkBSTUtil(root.left, root.data, min) && checkBSTUtil(root.right, max, root.data);
+    if(root == null) return true;
+    if(root.data < max && root.data > min) return checkBSTUtil(root.left, root.data, min) && checkBSTUtil(root.right, max, root.data);
     return false;
 }
 

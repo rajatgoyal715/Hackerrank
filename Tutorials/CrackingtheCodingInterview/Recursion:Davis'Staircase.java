@@ -17,14 +17,14 @@ public class DavisStaircase {
         return res[n];
     }
 
-    public static void stepPerms2(int n) {
-        res[1] = 1;
-        res[2] = 2;
-        res[3] = 4;
-        for(int i=4;i<=n;i++){
-            res[i] = res[i-1] + res[i-2] + res[i-3];
-        }
-    }
+    // public static void stepPerms() {
+    //     res[1] = 1;
+    //     res[2] = 2;
+    //     res[3] = 4;
+    //     for(int i=4;i<=36;i++){
+    //         res[i] = res[i-1] + res[i-2] + res[i-3];
+    //     }
+    // }
 
     public static void main(String[] args) {
         res = new int[37];
