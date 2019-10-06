@@ -4,9 +4,10 @@ read y
 read z
 
 if [ $x -eq $y ] && [ $x -eq $z ]; then
-	echo "EQUILATERAL"
+    echo "EQUILATERAL"
 elif [ $x != $y ] && [ $x != $z ] && [ $y != $z ]; then
-	echo "SCALENE"
+    echo "SCALENE"
 else
-	echo "ISOSCELES"
+    echo "ISOSCELES"
 fi
+
