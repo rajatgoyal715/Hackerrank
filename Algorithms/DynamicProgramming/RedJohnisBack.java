@@ -1,13 +1,11 @@
-package DynamicProgramming;
-
-import java.util.*;
 import java.io.*;
+import java.util.*;
+import java.text.*;
+import java.math.*;
+import java.util.regex.*;
 
-/*
- * @author -- rajatgoyal715
- */
+public class Solution {
 
-public class RedJohnIsBack {
     static int max=1000000;
     static int sum[]= new int[max];
     static boolean prime[] = new boolean[max];
@@ -30,25 +28,13 @@ public class RedJohnIsBack {
         int t=sc.nextInt();
         while(t--!=0){
             int n=sc.nextInt();
-//            System.out.println("N: "+n);
             int p=0;
             int n1=n/4;
             for(int i=0;i<=n1;i++){
                 p+=comb(n-4*i+i,i);
             }
-//            System.out.println("P: "+p);
-//            System.out.println("No. of primes: "+sum[p]);
             System.out.println(sum[p]);
         }
-    }
-    public static int fact(int n){
-        if(n<=1)
-            return 1;
-        return fact(n-1)*n;
-    }
-    
-    public static int c(int a,int b){
-        return fact(a)/(fact(a-b)*fact(b));
     }
     
     public static int comb(int a,int b){

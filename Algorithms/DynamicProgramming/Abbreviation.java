@@ -1,37 +1,48 @@
-import java.util.*;
 import java.io.*;
+import java.util.*;
+import java.text.*;
+import java.math.*;
+import java.util.regex.*;
 
-class Abbreviation {
+public class Solution {
 
-	static boolean isUpperCase(char c) {
-		return (c >= 'A' && c <= 'Z');
-	}
-
-	static char upperCase(char c) {
-		if(isUpperCase(c)) return c;
-		return (char)(c + 32);
-	}
-
-	boolean dp[][];
-
-	public static void main(String args[]) {
-		Scanner sc = new Scanner(System.in);
-		int queries = Integer.parseInt(sc.nextLine());
-		dp = new int[1011][1011];
-		while(queries--!=0){
-			String a = sc.nextLine();
-			String b = sc.nextLine();
-			for(int i=0;i<=a.length();i++){
-				for(int j=0;j<=b.length();j++){
-					dp[i][j] = false;
-				}
-			}
-			dp[0][0] = true;
-			for(int i=0;i<a.length();i++){
-				for(int j=0;j<=b.length();j++){
-					if(dp[i][j])
-				}
-			}
-		}
-	}
+    public static void main(String[] args) {
+        Scanner sc=new Scanner(System.in);
+        int q=sc.nextInt();
+        sc.nextLine();
+        while(q--!=0){
+            String s1=sc.nextLine();
+            String s2=sc.nextLine();
+            String s=s1.toUpperCase();
+            char a[]=s.toCharArray();
+            char b[]=s2.toCharArray();
+            char c[]=s1.toCharArray();
+            System.out.println((count(c,b)&&order(a,b))?"YES":"NO");
+        }
+    }
+    public static boolean count(char c[],char b[]){
+        int l1=c.length;
+        int l2=b.length;
+        int n=0;
+        for(int i=0;i<l1;i++){
+            if(c[i]>=65&&c[i]<=90)
+                n++;
+        }
+        if(n>l2)
+            return false;
+        return true;
+    }
+    public static boolean order(char a[],char b[]){
+        int l1=a.length;
+        int l2=b.length;
+        int f=0;
+        for(int i=0;i<l1;i++){
+            if(a[i]==b[f]){
+                f++;
+                if(f==l2)
+                    return true;
+            }
+        }
+        return false;
+    }
 }

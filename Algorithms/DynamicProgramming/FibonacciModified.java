@@ -1,11 +1,8 @@
-import java.util.*;
+import java.util.Scanner;
 import java.math.BigInteger;
 
-/*
- * @author -- rajatgoyal715
- */
+public class Solution {
 
-public class FibonacciModified {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         BigInteger a = sc.nextBigInteger();
