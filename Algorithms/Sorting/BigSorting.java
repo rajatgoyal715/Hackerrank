@@ -1,8 +1,12 @@
-import java.util.*;
 import java.io.*;
+import java.util.*;
+import java.text.*;
+import java.math.*;
+import java.util.regex.*;
 
-class BigSorting {
-	static String[] bigSorting(String[] arr) {
+public class Solution {
+
+    static String[] bigSorting(String[] arr) {
         Arrays.sort(arr, new Comparator<String>(){
             public int compare(String s1, String s2){
                 int l1 = s1.length(), l2 = s2.length();

@@ -1,13 +1,7 @@
-package Sorting;
+import java.util.Scanner;
 
-import java.util.*;
-import java.io.*;
+public class Solution {
 
-/*
- * @author -- rajatgoyal715
- */
-
-public class IntroToTutorialChallenges {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int num = sc.nextInt();

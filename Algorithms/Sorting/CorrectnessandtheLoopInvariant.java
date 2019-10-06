@@ -1,34 +1,28 @@
-package Sorting;
-
-import java.util.*;
 import java.io.*;
+import java.util.*;
 
-/*
- * @author -- rajatgoyal715
- */
+public class Solution {
 
-public class RunningTimeOfAlgorithms {
     public static void insertionSort(int[] A){
-        int N = 0;
         for(int i = 1; i < A.length; i++){
             int value = A[i];
             int j = i - 1;
             while(j >= 0 && A[j] > value){
                 A[j + 1] = A[j];
                 j = j - 1;
-                N++;
             }
             A[j + 1] = value;
         }
-        System.out.println(N);
+
+        printArray(A);
     }
-    
-    public static void printArray(int[] ar) {
+
+
+    static void printArray(int[] ar) {
         for(int n: ar){
             System.out.print(n+" ");
         }
     }
-    
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
         int n = in.nextInt();
