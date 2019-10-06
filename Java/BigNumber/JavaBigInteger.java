@@ -1,13 +1,11 @@
 import java.util.Scanner;
 import java.math.BigInteger;
 
-public class JavaBigInteger {
-    public static void main(String args[]) {
+public class Solution {
+    public static void main(String args[]){
         Scanner sc = new Scanner(System.in);
         BigInteger a = sc.nextBigInteger();
         BigInteger b = sc.nextBigInteger();
-        sc.close();
-        
         BigInteger sum = a.add(b);
         BigInteger mul = a.multiply(b);
         System.out.println(sum);
