@@ -9,6 +9,16 @@ public class JavaCurrencyFormatter {
         double payment = sc.nextDouble();
         sc.close();
 
+        // NumberFormat nf = NumberFormat.getInstance();
+        // nf.setMaximumFractionDigits(2);
+        // nf.setMinimumFractionDigits(2);
+        // Currency us_currency = Currency.getInstance("USD");
+        // nf.setCurrency(us_currency);
+        // System.out.println("US: " + nf.format(payment));
+        // Currency in_currency = Currency.getInstance("INR");
+        // nf.setCurrency(in_currency);
+        // System.out.println("India: " + nf.format(payment));
+
         NumberFormat us = NumberFormat.getCurrencyInstance(Locale.US);
         NumberFormat india = NumberFormat.getCurrencyInstance(new Locale("en", "IN"));
         NumberFormat china = NumberFormat.getCurrencyInstance(Locale.CHINA);

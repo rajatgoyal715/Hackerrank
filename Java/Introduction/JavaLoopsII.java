@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class JavaLoopsII {
+public class Solution {
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
@@ -16,6 +16,5 @@ public class JavaLoopsII {
             System.out.println();
             t--;
         }
-        sc.close();
     }
 }
