@@ -2,6 +2,9 @@
 
 |Problem Name|Problem Link|Language|Solution Link|
 ---|---|---|---
-|Matching Character Ranges|[Problem](https://www.hackerrank.com/challenges/matching-range-of-characters/problem)|java8|[Solution](./MatchingCharacterRanges.java)|
 |Excluding Specific Characters|[Problem](https://www.hackerrank.com/challenges/excluding-specific-characters/problem)|java8|[Solution](./ExcludingSpecificCharacters.java)|
+|Excluding Specific Characters|[Problem](https://www.hackerrank.com/challenges/excluding-specific-characters/problem)|java8|[Solution](./ExcludingSpecificCharacters.java)|
+|Matching Character Ranges|[Problem](https://www.hackerrank.com/challenges/matching-range-of-characters/problem)|java8|[Solution](./MatchingCharacterRanges.java)|
+|Matching Character Ranges|[Problem](https://www.hackerrank.com/challenges/matching-range-of-characters/problem)|java8|[Solution](./MatchingCharacterRanges.java)|
+|Matching Specific Characters|[Problem](https://www.hackerrank.com/challenges/matching-specific-characters/problem)|java8|[Solution](./MatchingSpecificCharacters.java)|
 |Matching Specific Characters|[Problem](https://www.hackerrank.com/challenges/matching-specific-characters/problem)|java8|[Solution](./MatchingSpecificCharacters.java)|

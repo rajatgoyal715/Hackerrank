@@ -3,3 +3,4 @@
 |Problem Name|Problem Link|Language|Solution Link|
 ---|---|---|---
 |Write a function|[Problem](https://www.hackerrank.com/challenges/write-a-function/problem)|python3|[Solution](./write-a-function.py)|
+|Write a function|[Problem](https://www.hackerrank.com/challenges/write-a-function/problem)|python3|[Solution](./write-a-function.py)|
