@@ -1,6 +1,6 @@
 ## [Hackerrank](https://www.hackerrank.com/)
 
-Solutions of more than 380 problems of Hackerrank accross several domains.
+Solutions of more than 380 problems of Hackerrank across several domains.
 
 You can find me on hackerrank [here](https://hackerrank.com/rajatgoyal715).
 
