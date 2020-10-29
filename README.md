@@ -293,6 +293,7 @@ Automated the process of adding solutions using [Hackerrank Solution Crawler](ht
 |LinuxShell|Bash|Looping with Numbers|[Problem](https://www.hackerrank.com/challenges/bash-tutorials---looping-with-numbers/problem)|bash|[Solution](LinuxShell/Bash/bash-tutorials---looping-with-numbers.sh)|
 |LinuxShell|Bash|More on Conditionals|[Problem](https://www.hackerrank.com/challenges/bash-tutorials---more-on-conditionals/problem)|bash|[Solution](LinuxShell/Bash/bash-tutorials---more-on-conditionals.sh)|
 |LinuxShell|Bash|The World of Numbers|[Problem](https://www.hackerrank.com/challenges/bash-tutorials---the-world-of-numbers/problem)|bash|[Solution](LinuxShell/Bash/bash-tutorials---the-world-of-numbers.sh)|
+|LinuxShell|Bash|Arithmetic Operations|[Problem](https://www.hackerrank.com/challenges/bash-tutorials---arithmetic-operations/problem)|bash|[Solution](LinuxShell/Bash/bash-tutorials---arithmetic-operations.sh)|
 |Mathematics|Combinatorics|Sherlock and Pairs|[Problem](https://www.hackerrank.com/challenges/sherlock-and-pairs/problem)|java8|[Solution](Mathematics/Combinatorics/SherlockandPairs.java)|
 |Mathematics|Fundamentals|Army Game|[Problem](https://www.hackerrank.com/challenges/game-with-cells/problem)|java|[Solution](Mathematics/Fundamentals/ArmyGame.java)|
 |Mathematics|Fundamentals|Diwali Lights|[Problem](https://www.hackerrank.com/challenges/diwali-lights/problem)|java|[Solution](Mathematics/Fundamentals/DiwaliLights.java)|

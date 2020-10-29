@@ -10,3 +10,4 @@
 |Looping with Numbers|[Problem](https://www.hackerrank.com/challenges/bash-tutorials---looping-with-numbers/problem)|bash|[Solution](./bash-tutorials---looping-with-numbers.sh)|
 |More on Conditionals|[Problem](https://www.hackerrank.com/challenges/bash-tutorials---more-on-conditionals/problem)|bash|[Solution](./bash-tutorials---more-on-conditionals.sh)|
 |The World of Numbers|[Problem](https://www.hackerrank.com/challenges/bash-tutorials---the-world-of-numbers/problem)|bash|[Solution](./bash-tutorials---the-world-of-numbers.sh)|
+|Arithmetic Operations|[Problem](https://www.hackerrank.com/challenges/bash-tutorials---arithmetic-operations/problem)|bash|[Solution](./bash-tutorials---arithmetic-operations.sh)|
