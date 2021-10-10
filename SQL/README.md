@@ -11,3 +11,5 @@
 |BasicSelect|Weather Observation Station 1|[Problem](https://www.hackerrank.com/challenges/weather-observation-station-1/problem)|tsql|[Solution](BasicSelect/weather-observation-station-1.sql)|
 |BasicSelect|Weather Observation Station 3|[Problem](https://www.hackerrank.com/challenges/weather-observation-station-3/problem)|tsql|[Solution](BasicSelect/weather-observation-station-3.sql)|
 |BasicSelect|Weather Observation Station 4|[Problem](https://www.hackerrank.com/challenges/weather-observation-station-4/problem)|tsql|[Solution](BasicSelect/weather-observation-station-4.sql)|
+|BasicSelect|Weather Observation Station 5|[Problem](https://www.hackerrank.com/challenges/weather-observation-station-5/problem)|tsql|[Solution](https://github.com/mayankpathak4513/Hackerrank-4/blob/master/SQL/BasicSelect/weather-observation-station-5.sql)|
+
