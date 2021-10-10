@@ -342,6 +342,7 @@ Automated the process of adding solutions using [Hackerrank Solution Crawler](ht
 |SQL|BasicSelect|Weather Observation Station 1|[Problem](https://www.hackerrank.com/challenges/weather-observation-station-1/problem)|tsql|[Solution](SQL/BasicSelect/weather-observation-station-1.sql)|
 |SQL|BasicSelect|Weather Observation Station 3|[Problem](https://www.hackerrank.com/challenges/weather-observation-station-3/problem)|tsql|[Solution](SQL/BasicSelect/weather-observation-station-3.sql)|
 |SQL|BasicSelect|Weather Observation Station 4|[Problem](https://www.hackerrank.com/challenges/weather-observation-station-4/problem)|tsql|[Solution](SQL/BasicSelect/weather-observation-station-4.sql)|
+|SQL|BasicSelect|Weather Observation Station 5|[Problem](https://www.hackerrank.com/challenges/weather-observation-station-5/problem)|tsql|[Solution](SQL/BasicSelect/weather-observation-station-5.sql)|
 |Security|Cryptography|Keyword Transposition Cipher|[Problem](https://www.hackerrank.com/challenges/keyword-transposition-cipher/problem)|java|[Solution](Security/Cryptography/KeywordTranspositionCipher.java)|
 |Security|Cryptography|PRNG Sequence Guessing|[Problem](https://www.hackerrank.com/challenges/prng-sequence-guessing/problem)|java|[Solution](Security/Cryptography/PRNGSequenceGuessing.java)|
 |Security|Functions|Security Bijective Functions|[Problem](https://www.hackerrank.com/challenges/security-bijective-functions/problem)|java|[Solution](Security/Functions/SecurityBijectiveFunctions.java)|
